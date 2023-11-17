@@ -424,7 +424,8 @@ h6 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  position: absolute;
+  position:absolute;
+  height:20px;
   bottom: 60px;
   top: 110px;
   left: 50px;
@@ -535,6 +536,7 @@ h6 {
 
   #hero .carousel-content p {
     font-size: 15px;
+	
   }
 }
 
@@ -698,7 +700,7 @@ section {
   margin-bottom: 25px;
   text-align: center;
   border: 1px solid #ebe6e4;
-  height: 350px;
+  height:50px;
   position: relative;
   background: #faf9f8;
 }
@@ -996,9 +998,10 @@ section {
 }
 
 .about-us .image {
-  background: url("../img/profile.jpeg") center center no-repeat;
+  background: url("../img/profile.JPG") center center no-repeat;
   background-size: cover;
-  min-height: 560px;
+  height: 450px;
+  width:250px;
 }
 
 @media (max-width: 991px) {
